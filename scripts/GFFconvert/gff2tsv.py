@@ -5,7 +5,7 @@ import sys
 import urllib.parse
 from loguru import logger
 
-# 配置 loguru 日志格式 (移除默认配置，使用自定义简洁格式)
+
 logger.remove()
 logger.add(
     sys.stderr,
